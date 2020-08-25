@@ -7,6 +7,10 @@
   1. Training + Test Data split 
     
     - Training(80%) : Test(20%)
+    - classify data into 2 classes 
+      - normal : 걷기 보통
+      - abnormal : others
+      
   2. Experiment Settings
     
     - 10명의 data 통합
