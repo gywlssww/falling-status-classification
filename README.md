@@ -15,6 +15,7 @@
     
     - 10명의 data 통합
     - Evaluation metric: recall, precision, F1 measure
+    
   3. Modelling
     
     - Classifier : RNN-based
