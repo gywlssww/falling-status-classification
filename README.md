@@ -3,7 +3,8 @@
   - 5 classes : 걷기 보통, 무게중심 우/전/좌/후
   - 5 data sets per 1 person (Each set consists of 233 timestamps) 
   
-### 01. Normal/Abnormal status classification 
+  
+## 01. Normal/Abnormal status classification 
   1. Training + Test Data split 
     
     - Training(80%) : Test(20%)
