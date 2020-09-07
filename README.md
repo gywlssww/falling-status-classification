@@ -22,3 +22,17 @@
     - Classifier : RNN-based
     
   4. Results
+  
+    - Accuracy : 79.01%
+
+    
+## 02. Rule-based Classification
+
+  1. Baseline rule
+  
+    - features
+    - thresholds
+    
+    
+    
+  
