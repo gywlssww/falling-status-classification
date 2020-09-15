@@ -42,14 +42,14 @@
     
     - Classifier : RNN-based
     
-  4. Results
+  4. Results (Baseline Model)
   
-    - Accuracy : 40.5% ( epochs=20,
-    batch_size=64,)
+    - Accuracy : 40.5% ( epochs=20, batch_size=64,)
    
-  5. 5 classes clssification f1_score
+  5. 5 classes clssification Model Tunning Results
+   - f1_score
   
-| Dimension | Logist Regression | Linear SVM  | RBF SVM  | Poly SVM | XGBoost  |
+| # of Epoches | | batch size  |  |  |   |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 20  | TBD  | TBD  |TBD  |TBD  |-  |
 | 50  | TBD  | TBD  |TBD  |TBD  |-  |
