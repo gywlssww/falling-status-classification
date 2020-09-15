@@ -47,12 +47,15 @@
     - Accuracy : TBD
    
   5. 5 classes clssification f1_score
-  |  # of singular values|   Logist Regression      | | Linear SVM             ||
-  |:--------------------:|:----------:|:-------------:|:----------:|:----------:|
-  | 10                   |TBD      | TBD     |TBD      | TBD     |
-  | 30                   |TBD      | TBD     |TBD      | TBD     |
-  | 100                  |TBD      | TBD     |TBD      | TBD     |
-  | 200                  |TBD      | TBD     |TBD      | TBD     |
+  
+| Dimension | Logist Regression | Linear SVM  | RBF SVM  | Poly SVM | XGBoost  |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 20  | TBD  | TBD  |TBD  |TBD  |-  |
+| 50  | TBD  | TBD  |TBD  |TBD  |-  |
+| 100  | TBD  | TBD  |TBD  |TBD  |-  |
+| 200  | TBD  | TBD  |TBD  |TBD  |-  |
+| 300  | TBD  | TBD  |TBD  |TBD  |-  |
+
 
  
 ## 03. Rule-based Classification
