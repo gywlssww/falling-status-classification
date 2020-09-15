@@ -44,7 +44,8 @@
     
   4. Results
   
-    - Accuracy : TBD
+    - Accuracy : 40.5% ( epochs=20,
+    batch_size=64,)
    
   5. 5 classes clssification f1_score
   
