@@ -48,13 +48,13 @@
    
   5. Hyperparameters Optimization Results
   - By Talos (Grid Search)
-| # of Epoches |train | test  |  |  |   |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 20  | 40.50  | 20.30  |TBD  |TBD  |-  |
-| 50  | 92.00  | 22.00  |TBD  |TBD  |-  |
-| 100  | 92.50 | 20.60  |TBD  |TBD  |-  |
-| 200  | TBD  | TBD  |TBD  |TBD  |-  |
-| 300  | TBD  | TBD  |TBD  |TBD  |-  |
+| # of Epoches  |train   | test   |     |     |     |
+|:-------------:|:------:|:------:|:---:|:---:|:---:|
+| 20            | 40.50  | 20.30  |TBD  |TBD  |-    |
+| 50            | 92.00  | 22.00  |TBD  |TBD  |-    |
+| 100           | 92.50  | 20.60  |TBD  |TBD  |-    |
+| 200           | TBD    | TBD    |TBD  |TBD  |-    |
+| 300           | TBD    | TBD    |TBD  |TBD  |-    |
 
 
  
