@@ -49,7 +49,9 @@
   5. Hyperparameters Optimization Results
   - By Talos (Grid Search)
   
-  
+
+|               |LAYER 01         |     LAYER02     |
+|:-------------:|:---------------:|:---------------:|
 | # of Epoches  |train   | test   |     |     |     |
 |:-------------:|:------:|:------:|:---:|:---:|:---:|
 | 20            | 40.50  | 20.30  |TBD  |TBD  |-    |
