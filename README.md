@@ -46,14 +46,13 @@
   
     - Accuracy : 40.5% ( epochs=20, batch_size=64,)
    
-  5. 5 classes clssification Model Tunning Results
-   - f1_score
-  
-| # of Epoches | | batch size  |  |  |   |
+  5. Hyperparameters Optimization Results
+  - By Talos (Grid Search)
+| # of Epoches |train | test  |  |  |   |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 20  | TBD  | TBD  |TBD  |TBD  |-  |
-| 50  | TBD  | TBD  |TBD  |TBD  |-  |
-| 100  | TBD  | TBD  |TBD  |TBD  |-  |
+| 20  | 40.50  | 20.30  |TBD  |TBD  |-  |
+| 50  | 92.00  | 22.00  |TBD  |TBD  |-  |
+| 100  | 92.50 | 20.60  |TBD  |TBD  |-  |
 | 200  | TBD  | TBD  |TBD  |TBD  |-  |
 | 300  | TBD  | TBD  |TBD  |TBD  |-  |
 
