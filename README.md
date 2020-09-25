@@ -58,7 +58,7 @@
 | 100           | 92.50  | 20.60  |TBD     |TBD     |
 |# of batches   |        |        |        |        |
 | 32            | 92.00  | 20.00  |TBD     |TBD     |
-| 64            | TBD    | TBD    |TBD     |TBD     |
+| 64            | 91.80  | 20.70  |TBD     |TBD     |
 
 
  
