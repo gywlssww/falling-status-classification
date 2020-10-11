@@ -1,7 +1,7 @@
 # falling-status-classification
 ### Data Preprocessing Results
   - 5 classes : 걷기 보통, 무게중심 우/전/좌/후
-  - 5 data sets per 1 person (Each set consists of 233 timestamps) 
+  - 5 data set files per 1 person (Each file consists of 234 timestamps) 
   
   
 ## 01. Normal/Abnormal status classification 
@@ -28,7 +28,7 @@
 ## 02. 5 classes Classification
   1. Training + Test Data split 
     
-    - Training(80%) : Test(20%)
+    - Training(4 files for each subject, 46805) : Test(1 file for each subject, 11700)
     - classify data into 5 classes (label : 0-4)
       - normal : 걷기 보통 (0)
       - abnormal_l,abnormal_r,abnormal_f,abnormal_b, : 무게 중심 좌측/우측/전방/후방 (1,2,3,4)
