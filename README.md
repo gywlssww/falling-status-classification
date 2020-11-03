@@ -50,7 +50,7 @@
   - By Talos (Grid Search)
   
 
-|               |LSTM      | Bi-LSTM |      |
+|               |LSTM     | | Bi-LSTM |      |
 |:-------------:|:------:|:------:|:------:|:------:|
 | # of Epoches  |train   | test   |train   | test   |
 | 500           | 44.50  | 40.00  |TBD     |TBD     |
