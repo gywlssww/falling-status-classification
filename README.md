@@ -88,7 +88,7 @@
 
 
   6. Discussion
--  1. Bi-LSTM > LSTM
+ 1) Bi-LSTM > LSTM
 
   - 양방향 : 주기 데이터에 적합
   - some additional features associated with data that might be captured by BiLSTM but unidirectional LSTM models are not capable of exposing them, since the training is only one way.
@@ -98,7 +98,7 @@
 
 
 
-- 2. GRU > LSTM
+2) GRU > LSTM
 
   - GRU는 3개 gate (forget, input, output)로 이뤄진 LSTM의 simplified 버전으로 2개 gate로 구성. (update, reset)
   - For tasks with a few data
