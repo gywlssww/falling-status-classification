@@ -87,19 +87,23 @@
 ### Discussion
 
 1. Bi-LSTM > LSTM
+```
 - 양방향 : 주기 데이터에 적합
 - some additional features associated with data that might be
 captured by BiLSTM but unidirectional LSTM models are not
 capable of exposing them, since the training is only one way
+```
 (S. Siami-Namini, N. Tavakoli and A. S. Namin, "The Performance of LSTM and BiLSTM in Forecasting Time Series," 2019 IEEE International Conference on Big Data (Big Data), Los Angeles, CA, USA, 2019, pp. 3285-3292.
 doi: 10.1109/BigData47090.2019.9005997)
 
 
 
 2. GRU > LSTM
+```
 - GRU는 3개 gate (forget, input, output)로 이뤄진 LSTM의 simplified 버전으로 2개 gate로 구성. (update, reset)
 - For tasks with a few data
 - 적은 파라미터를 가진 경우 LSTM 보다 좋은 결과를 얻는 것으로 알려짐.
+```
 (Jiang, Zheng & Hu, Meng-Han & Fan, Lei & Pan, Yaling & Tang, Wei & Zhai, Guangtao & Lu, Yong-Zai. (2020). Combining Visible Light and Infrared Imaging for Efficient Detection of Respiratory Infections such as COVID-19 on Portable Device. )
 
 > baseline model은 9개 features 가진 HAR data
