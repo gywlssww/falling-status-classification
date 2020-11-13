@@ -47,6 +47,9 @@
     - Accuracy : 40.5% ( epochs=20, batch_size=64,)
    
   5. Hyperparameters Optimization Results
+  
+  ##### Highest Accuracy (77.49 %)
+  
   - timestamp-step = 234 - 234
   
 
@@ -62,7 +65,7 @@
 | 468          | 91.80  | 44.00  |98.00   |61.62   |TBD     |TBD     |
 | 729          | TBD   | TBD   |94.75     |58.59    |TBD     |TBD     |
  
- - timestamp - step = 234 -117
+ - timestamp - step = 234 -117 ( Highest Accuracy)
  
 |               |Bi-LSTM     | |GRU |      |Bi-GRU |      |    
 |:-------------:|:------:|:------:|:------:|:------:|:------:|:------:|
@@ -73,7 +76,7 @@
 | 468         |98.24   |59.18 |99.24   |75.51  |100.00    |63.27   |
 | 972           |100.00   |69.39   |94.73     |65.30    |100.00    |54.08    |
 
- - timestamp - step = 117 -117
+ - timestamp - step = 117 -117  
  
 |               |Bi-LSTM     | |GRU |      |  Bi-GRU |      |      
 |:-------------:|:------:|:------:|:------:|:------:|:------:|:------:|
