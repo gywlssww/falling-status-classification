@@ -48,8 +48,16 @@
    
   5. Hyperparameters Optimization Results
   
-  ``` - Highest Accuracy (77.49 %)```
-  
+  ``` - Highest Accuracy (83.17 %)```
+  - timestamp-step = 117 - 39
+ |               |Bi-LSTM     | |GRU |      |Bi-GRU |      |    
+|:-------------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|# of batches (#of Epoches)    |train   | test   |train   | test   |train   | test   |
+| 39 (200)          |TBD    |TBD    |82.72   |67.00 |TBD    |TBD  |
+| 117 (500)          |TBD    |TBD    |98.50   |83.17  |TBD    |TBD  |
+| 234 (1000)          |TBD    |TBD  |60.68   |54.55    |TBD    |TBD    |
+| 468         |TBD    |TBD |TBD    |TBD  |TBD    |TBD   |
+| 972           |TBD    |TBD   |TBD    |TBD    |TBD    |TBD    |
   - timestamp-step = 234 - 234
   
 
