@@ -48,7 +48,7 @@
    
   5. Hyperparameters Optimization Results
   
-  ``` - Highest Accuracy (85.52 %)```
+  ``` - Highest Accuracy (88.29 %)```
   
    - timestamp-step = 39-13
   
