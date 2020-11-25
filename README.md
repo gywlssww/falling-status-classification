@@ -48,7 +48,7 @@
    
   5. Hyperparameters Optimization Results
   
-  ``` - Highest Accuracy (88.29 %)```
+  ``` - Highest Accuracy (89.63 %) __ timestamp 39 step 13 | batch 13 epoch 50 nodes 100-20 ```
   
    - timestamp-step = 39-13
   
