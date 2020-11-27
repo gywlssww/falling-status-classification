@@ -50,16 +50,28 @@
   
   ``` - Highest Accuracy (91.19%) _ _ _ ( Bi-LSTM | timestamp 39 step 13 | batch 39 epoch 500 nodes 100-20 ) ```
   
-   - timestamp-step = 39-13
-  
+   - timestamp-step = 39-13 
+  ``` nodes 100-20 ```
 |               |Bi-LSTM     | |GRU |      |Bi-GRU |      |    
 |:-------------:|:------:|:------:|:------:|:------:|:------:|:------:|
 |# of batches (#of Epoches)    |train   | test   |train   | test   |train   | test   |
+| 2(100)         |99.80   |88.29 |TBD    |TBD  |TBD    |TBD   |
 | 39 (500)          |100.00    |91.19    |100.00   |88.29 |TBD    |TBD  |
-| 117 (1000)          |TBD    |TBD    |100.00   |87.96  |TBD    |TBD  |
-| 234 (1500)          |TBD    |TBD  |100.00   |86.73    |TBD    |TBD    |
-| 468         |TBD    |TBD |TBD    |TBD  |TBD    |TBD   |
-| 972           |TBD    |TBD   |TBD    |TBD    |TBD    |TBD    |
+| 117 (1000)          |100.00    |88.96    |100.00   |87.96  |TBD    |TBD  |
+| 234 (1000)          |TBD    |TBD  |100.00   |86.73    |TBD    |TBD    |
+| 468(1500)         |TBD    |TBD |TBD    |TBD  |TBD    |TBD   |
+| 729(2000)           |TBD    |TBD   |TBD    |TBD    |TBD    |TBD    |
+
+  ``` nodes 100-5 ```
+|               |Bi-LSTM     | |GRU |      |Bi-GRU |      |    
+|:-------------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|# of batches (#of Epoches)    |train   | test   |train   | test   |train   | test   |
+| 2(100)         |TBD    |TBD  |99.78    |87.63  |TBD    |TBD   |
+| 13 (500)          |TBD    |TBD  |100.00   |90.97 |TBD    |TBD  |
+| 39 (500)          |TBD    |TBD  |99.97   |87.63 |TBD    |TBD  |
+| 117 (1000)          |TBD    |TBD  |100.00   |84.95  |TBD    |TBD  |
+| 234 (1000)          |TBD    |TBD  |100.00   |84.06    |TBD    |TBD    |
+
 
   - timestamp-step = 117 - 39
   
