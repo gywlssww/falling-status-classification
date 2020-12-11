@@ -40,11 +40,11 @@
     
   3. Modelling
     
-    - Classifier : RNN-based
+    - Classifier : RNN-Based (Bi-LSTM, GRU, Bi-GRU)
     
   4. Results (Baseline Model)
   
-    - Accuracy : 40.5% ( epochs=20, batch_size=64,)
+    - Accuracy : 40.5% ( Simple LSTM, epochs=20, batch_size=64)
    
   5. Hyperparameters Optimization Results
   
@@ -55,7 +55,7 @@
    
    
 
-   ``` -  nodes 100-20 ```
+   ``` -  nodes 100-20 ( Highest Accuracy: 91.19% )``` 
    
 
   
@@ -70,7 +70,7 @@
 | 729(2000)           |99.53   |83.61   |TBD    |TBD    |TBD    |TBD    |
 
 
-  ``` -  nodes 100-5 ```
+  ``` -  nodes 100-5 ( Highest Accuracy: 90.97% ) ```
   
 |               |Bi-LSTM     | |GRU |      |Bi-GRU |      |    
 |:-------------:|:------:|:------:|:------:|:------:|:------:|:------:|
@@ -82,7 +82,7 @@
 | 234 (1000)          |TBD    |TBD  |100.00   |84.06    |100.00    |87.85   |
 
 
-  - timestamp-step = 117 - 39
+  - timestamp-step = 117 - 39 ( Highest Accuracy: 85.52% )
   
 |               |Bi-LSTM     | |GRU |      |Bi-GRU |      |    
 |:-------------:|:------:|:------:|:------:|:------:|:------:|:------:|
@@ -93,7 +93,7 @@
 | 468         |TBD    |TBD |TBD    |TBD  |TBD    |TBD   |
 | 972           |TBD    |TBD   |TBD    |TBD    |TBD    |TBD    |
 
-  - timestamp-step = 234 - 234
+  - timestamp-step = 234 - 234 ( Highest Accuracy:63.64% )
   
 
 |               |LSTM     | | Bi-LSTM |      |GRU |      |      
@@ -108,7 +108,7 @@
 | 468          | 91.80  | 44.00  |98.00   |61.62   |TBD     |TBD     |
 | 729          | TBD   | TBD   |94.75     |58.59    |TBD     |TBD     |
  
- - timestamp - step = 234 -117 ( Highest Accuracy)
+ - timestamp - step = 234 -117 ( Highest Accuracy: 77.49 %)
  
 |               |Bi-LSTM     | |GRU |      |Bi-GRU |      |    
 |:-------------:|:------:|:------:|:------:|:------:|:------:|:------:|
@@ -119,7 +119,7 @@
 | 468         |98.24   |59.18 |99.24   |75.51  |100.00    |63.27   |
 | 972           |100.00   |69.39   |94.73     |65.30    |100.00    |54.08    |
 
- - timestamp - step = 117 -117  
+ - timestamp - step = 117 -117  (Highest Accuracy: 72.73 %)
  
 |               |Bi-LSTM     | |GRU |      |  Bi-GRU |      |      
 |:-------------:|:------:|:------:|:------:|:------:|:------:|:------:|
@@ -155,7 +155,10 @@
   - baseline model은 9개 features 가진 HAR data
   - 실험 데이터는 x,y,z 축 가속도 3개 features의 상대적으로 단순한 data로, 보다 간소한 network에서 성능이 우수함을 확인
 
-
+#### 3) timestamp - step
+   - data processing 과정에서 timestamp - step 크기를 작게할 때 성능이 향상되었음.
+   - 모델의 nodes 수가 클 때보다 작을 때 성능이 향상되었음.
+   
 ## 03. Rule-based Classification
 
   1. Baseline rule
