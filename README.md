@@ -157,6 +157,7 @@
 
 #### 3) timestamp - step
    - data processing 과정에서 timestamp - step 크기를 작게할 때 성능이 향상되었음.
+   - timestamp 구간이 겹칠 때 더 우수한 성능을 보였음.
    - 모델의 nodes 수가 클 때보다 작을 때 성능이 향상되었음.
    
 #### 4) RNN-Based Model의 Optimal parameters 에 대한 추가 분석 진행 예쩡
